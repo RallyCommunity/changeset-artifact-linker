@@ -1,0 +1,13 @@
+{
+    "name": "ChangeSet-Artifact Linker",
+    "className": "CustomApp",
+    "sdk": "2.0p",
+    "javascript": [
+        "ChangeNameDialog.js",
+    	"SettingsDialog.js",
+        "App.js"
+    ],
+    "css": [
+        "app.css"
+    ]
+}

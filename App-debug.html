@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChangeSet - Artifact Linker</title>
+
+    <script type="text/javascript" src="https://audemo.rallydev.com/apps/2.0p/sdk-debug.js"></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function() {
+            
+            Rally.loadScripts([
+                "ChangeNameDialog.js",
+                "SettingsDialog.js",
+                "App.js"
+            ], function() {
+                Rally.launchApp('CustomApp', {
+                    name: 'ChangeSet-Artifact Linker'
+                })
+            }, true);
+        });
+    </script>
+
+<link rel="stylesheet" type="text/css" href="app.css">
+<style>
+.box { border: 1px solid black;
+				            	 }
+.box1 { border: 1px solid green;     }
+.redbox { border: 1px solid red;     }
+
+.bluebox { border: 1px solid blue;
+    padding: 25px;
+     }
+.app_note {
+	text-align: center;
+	border: 1px solid cyan;
+	padding: 5px;
+}
+
+</style>
+</head>
+<body>
+</body>
+</html>
